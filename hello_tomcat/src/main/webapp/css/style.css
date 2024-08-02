@@ -1,0 +1,93 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ebeef0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.login-box {
+    background-color: #315c6d;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    max-width: 400px;
+    width: 100%;
+}
+
+.login-box h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.login-box label {
+    font-size: 18px;
+    margin-top: 10px;
+    display: block;
+}
+
+.login-box input[type="text"], .login-box input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.login-box button {
+    background-color: #fff;
+    color: E0FFFF;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-box button:hover {
+    background-color: #ddd;
+}
+
+.logo {
+    width: 200px; /* Tamanho da imagem ajustado */
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.footer {
+    margin-top: 20px;
+    color: white;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.login-box button {
+    background-color: #fff;
+    color: #315c6d; /* Cor corrigida */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px; /* Margem para separar os botões */
+    flex: 1; /* Faz com que os botões tenham a mesma largura */
+}
+
+.login-box button:hover {
+    background-color: #ddd;
+}
